@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Limesharp - Front-End Dev Test</title>
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">
+        <section class="experienced-multitalented-blocks">
+            <h1>Experienced & Multi-Talented</h1>
+            <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor leo, porttitor vel dictum at, aliquam et augue. Duis vel molestie risus, ut lobortis felis.
+            </div>
+            <div class="items" data-bind="foreach: items">
+                <div class="item-container">
+                    <div class="item">
+                        <div class="item-icon">
+                            <img src="assets/images/info.png" alt="Info">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-title" data-bind="text: title"></div>
+                            <div class="item-description-container">
+                                <div class="item-short-description" data-bind="text: shortDescription"></div>
+                                <div class="item-full-description" style="display: none" data-bind="text: fullDescription"></div>
+                                <div class="toggle-block">
+                                    <div class="show-full">+</div>
+                                    <div class="show-short" style="display: none">-</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/toggleBlocks.js"></script>
+</body>
+</html>

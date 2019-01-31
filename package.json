@@ -1,0 +1,13 @@
+{
+  "name": "limesharp-fed-test",
+  "version": "1.0.0",
+  "description": "Limesharp - Front-End Dev Test",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-less": "^2.0.0",
+    "grunt": "^1.0.3"
+  },
+  "devDependencies": {},
+  "author": "Emanuel Arcos",
+  "license": "ISC"
+}

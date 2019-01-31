@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/gotham/GothamBold.eot');
+  src: url('../fonts/gotham/GothamBold.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham/GothamBold.woff2') format('woff2'), url('../fonts/gotham/GothamBold.woff') format('woff'), url('../fonts/gotham/GothamBold.ttf') format('truetype'), url('../fonts/gotham/GothamBold.svg#GothamBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('../fonts/proxima-nova/ProximaNova-Regular.eot');
+  src: url('../fonts/proxima-nova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/proxima-nova/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/proxima-nova/ProximaNova-Regular.woff') format('woff'), url('../fonts/proxima-nova/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/proxima-nova/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Gotham';
+}
+h1 {
+  font-size: 28px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1c2026;
+  color: #65757E;
+  font-family: 'Proxima Nova Rg';
+  margin: 0;
+}
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.experienced-multitalented-blocks {
+  padding: 0 20px;
+}
+.experienced-multitalented-blocks h1 {
+  text-align: center;
+  color: #ffffff;
+  margin: 30px 25px 22px;
+}
+.experienced-multitalented-blocks h1:after {
+  content: '';
+  width: 32px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin: 28px auto 0;
+}
+.experienced-multitalented-blocks .description {
+  text-align: center;
+  font-size: 19px;
+  line-height: 24px;
+  padding: 0 10px;
+  max-width: 650px;
+  margin: 0 auto 40px;
+  letter-spacing: -1px;
+}
+.experienced-multitalented-blocks .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.experienced-multitalented-blocks .items .item-container {
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.experienced-multitalented-blocks .items .item-container .item .item-icon {
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #56655F;
+  text-align: center;
+  color: #ffffff;
+  padding: 28px;
+}
+.experienced-multitalented-blocks .items .item-container .item .item-info {
+  padding: 28px 24px 17px;
+  text-align: center;
+  background-color: #000000;
+}
+.experienced-multitalented-blocks .items .item-container .item .item-info .item-title {
+  font-size: 15px;
+  font-family: 'Gotham';
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.experienced-multitalented-blocks .items .item-container .item .item-info .item-description-container {
+  font-size: 19px;
+  letter-spacing: -1px;
+  line-height: 24px;
+}
+.experienced-multitalented-blocks .items .item-container .item .item-info .item-description-container .item-short-description,
+.experienced-multitalented-blocks .items .item-container .item .item-info .item-description-container .item-full-description {
+  margin-bottom: 17px;
+}
+.experienced-multitalented-blocks .items .item-container .item .item-info .item-description-container .toggle-block .show-full,
+.experienced-multitalented-blocks .items .item-container .item .item-info .item-description-container .toggle-block .show-short {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  height: 34px;
+  width: 34px;
+  color: #ffffff;
+  background-color: #1c2026;
+  padding: 10px;
+  display: block;
+  line-height: 17px;
+  margin: 0 auto;
+  cursor: pointer;
+  user-select: none;
+}
+.experienced-multitalented-blocks .items .item-container .item .item-info .item-description-container .toggle-block .show-short {
+  line-height: 14px;
+}
+@media (min-width: 640px) {
+  .experienced-multitalented-blocks .items .item-container {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 37px;
+  }
+  .experienced-multitalented-blocks .items .item-container {
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 1024px) {
+  .experienced-multitalented-blocks .items .item-container {
+    width: 25%;
+  }
+}
